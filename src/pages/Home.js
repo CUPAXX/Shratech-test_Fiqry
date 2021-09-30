@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       {/* section start */}
       <section className="bg-home flex flex-col justify-center items-center gap-5">
-        <div className="text-white font-bold text-3xl md:text-7xl">Your Dream Come Here</div>
+        <div className="text-white font-bold text-3xl lg:text-7xl">Your Dream Come Here</div>
         <a href="#how-it-work" className="btn-login py-2 px-10 rounded-lg flex justify-center items-center text-white font-bold">Let's start</a>
       </section>
 
@@ -43,8 +43,8 @@ export default function Home() {
           <h5 className="text-4xl font-semibold text-gray-800 tracking-wider">Popular Categories</h5>
           <h5 className=" text-gray-400">More than 123 new jobs every day</h5>
         </div>
-        <div className="flex flex-row gap-14 justify-center overflow-y-scroll md:max-w-max max-w-sm">
-          <CategoryItem/>
+        <div className="flex flex-row gap-14 lg:gap-14 justify-center overflow-y-scroll md:max-w-2xl lg:max-w-max max-w-sm">
+          <CategoryItem className=""/>
           <CategoryItem/>
           <CategoryItem/>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           <h4 className="text-3xl font-bold text-gray-700 text-center md:text-left">We Are Trusted by Popular Company</h4>
           <h5 className="text-3xl font-bold text-red-400 md:flex hidden">800+ Company</h5>
-          <p className="text-gray-500 text-justify leading-10 md:flex hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore tempor incididunt ut
+          <p className="text-gray-500 text-justify leading-10 lg:flex hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore tempor incididunt ut
               labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
               maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. </p>
         </div>
