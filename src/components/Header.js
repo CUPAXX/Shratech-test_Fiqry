@@ -1,16 +1,8 @@
-import React, {useEffect, useState} from 'react'
-import {FaBars} from 'react-icons/all'
+import React from 'react'
 import {Link} from 'react-router-dom'
 
 export default function Header() {
-  const [showMenu, setshowMenu] = useState(false)
-  const ShowTrigger = () => {
-    if(showMenu !== true){
-      setshowMenu(true)
-    } else {
-      setshowMenu(false)
-    }
-  }
+
   return (
     <header className="headerTop flex flex-row md:mx-16 mx-8 my-8 justify-between items-center">
       <div>
